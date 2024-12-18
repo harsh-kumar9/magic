@@ -1,0 +1,32 @@
+/* Add these styles to customize the slider */
+input[type="range"] {
+    -webkit-appearance: none; /* Override default styling */
+    appearance: none; /* Override default styling */
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    background: #771D83 !important; /* Change thumb color */
+    border: none; /* Optional: remove border */
+    height: 24px; /* Increase height of the thumb */
+    width: 24px; /* Optional: adjust width */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: -4px; /* Adjust to center the thumb over the track */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    background: #771D83 !important; /* Change thumb color for Firefox */
+    border: none; /* Optional: remove border */
+    height: 24px; /* Increase height of the thumb */
+    width: 24px; /* Optional: adjust width */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  input[type="range"]::-webkit-slider-runnable-track {
+    background: #E580F2; /* Change track color */
+    height: 8px; /* Set track height */
+  }
+  
+  input[type="range"]::-moz-range-track {
+    background: #E580F2; /* Change track color for Firefox */
+    height: 8px; /* Set track height */
+  }
